@@ -1,0 +1,27 @@
+/* ***************** */
+/* NAVIGATION BAR */
+/* ***************** */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+  padding: 8px 16px;
+}
+
+.navbar-logo,
+.nav-link {
+  display: inline-block;
+  letter-spacing: 4px;
+  padding: 8px 16px;
+}
+
+.navbar-logo:hover,
+.nav-link:hover {
+  background-color: #ccc;
+}
+
+.navbar-nav {
+  display: flex;
+}
