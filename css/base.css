@@ -1,3 +1,6 @@
+/* ***************** */
+/* RESET CSS */
+/* ***************** */
 * {
   margin: 0;
   padding: 0;
@@ -18,4 +21,30 @@ a {
 
 li {
   list-style-type: none;
+}
+
+/* ***************** */
+/* REUSABLE ELEMENTS */
+/* ***************** */
+.heading-primary {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #f1f1f1;
+
+  letter-spacing: 4px;
+  margin-top: 14px;
+}
+
+.heading-primary span {
+  font-weight: 700;
+  color: #fff;
+  background-color: #000;
+  opacity: 0.75;
+  padding: 8px 16px;
 }
