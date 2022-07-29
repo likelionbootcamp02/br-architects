@@ -23,6 +23,16 @@ li {
   list-style-type: none;
 }
 
+img {
+  display: block;
+}
+
+h1,
+h2 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+}
+
 /* ***************** */
 /* REUSABLE ELEMENTS */
 /* ***************** */
@@ -32,19 +42,31 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  font-family: "Segoe UI", Arial, sans-serif;
   font-size: 36px;
-  font-weight: 400;
   color: #f1f1f1;
 
   letter-spacing: 4px;
-  margin-top: 14px;
+  margin-top: 16px;
 }
 
-.heading-primary span {
-  font-weight: 700;
+.heading-primary strong {
   color: #fff;
   background-color: #000;
   opacity: 0.75;
   padding: 8px 16px;
+}
+
+.heading-secondary {
+  font-size: 24px;
+  padding: 16px 0;
+  margin: 10px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.main {
+  padding: 8px 16px;
+}
+
+.section-box {
+  padding: 32px 16px;
 }

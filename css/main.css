@@ -43,3 +43,31 @@
 .header-img {
   width: 100%;
 }
+
+/* ***************** */
+/* PROJECTS */
+/* ***************** */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 0 16px 8px 16px;
+}
+
+.project-item {
+  position: relative;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+}
