@@ -20,6 +20,7 @@
 .navbar-logo,
 .nav-link {
   display: inline-block;
+  text-transform: capitalize;
   letter-spacing: 4px;
   padding: 8px 16px;
 }
@@ -47,11 +48,10 @@
 /* ***************** */
 /* PROJECTS */
 /* ***************** */
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  padding: 0 16px 8px 16px;
+.project-grid,
+.about-grid {
+  padding: 0 16px;
+  margin-bottom: 16px;
 }
 
 .project-item {
@@ -70,4 +70,41 @@
   background-color: #000;
   color: #fff;
   padding: 8px 16px;
+}
+
+/* ***************** */
+/* ABOUT */
+/* ***************** */
+
+/* ***************** */
+/* MAP */
+/* ***************** */
+.map {
+  padding: 0 16px;
+}
+
+.map-img {
+  width: 100%;
+}
+
+/* ***************** */
+/* FOOTER */
+/* ***************** */
+.footer {
+  padding: 16px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.copyright {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.copyright a {
+  text-decoration: underline;
+}
+
+.copyright a:hover {
+  color: #4caf50;
 }
